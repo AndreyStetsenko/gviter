@@ -2586,7 +2586,6 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a::after {
-    content: "+";
     font-family: georgia, serif;
     font-size: 2.7rem;
     display: block;
@@ -2657,8 +2656,8 @@ html.no-csstransitions .home-content__main {
     text-align: center;
     z-index: 500;
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: calc(50% - 4.2rem);
+    left: calc(50% - 4.2rem);
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -2674,11 +2673,11 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link::before {
     display: block;
     content: "";
-    height: 3rem;
+    height: 200px;
     width: 1px;
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
-    top: -3rem;
+    top: -200px;
     left: 50%;
 }
 
@@ -3657,14 +3656,12 @@ footer .row {
   transition: all .2s ease-in;
   transition-delay: .1s;
   background: linear-gradient(-180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.50) 100%);
-  filter: grayscale(100%) blur(1.5px);
 }
 
 .music-card li a img:hover {
   -webkit-transform: scale(1.01);
   -moz-transform: scale(1.01);
   -o-transform: scale(1.01);
-  filter: grayscale(0%) blur(0px);
 }
 
 .music-card li a img,
@@ -4190,6 +4187,10 @@ footer .row {
 
     .player {
         width: 100%;
+    }
+
+    .music-card li a img {
+      filter: grayscale(0%);
     }
 }
 
