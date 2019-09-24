@@ -1677,13 +1677,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #8e44ad;
+    color: #fff;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 
 .header-menu-toggle.opaque {
     background-color: #000000;
+    color: #8e44ad;
 }
 
 .header-menu-toggle.opaque .header-menu-text {
@@ -3701,6 +3702,7 @@ footer .row {
   z-index: 1;
   display: flex;
   align-items: center;
+  font-family: "lora-regular", serif;
 }
 
 .track_info_wrapper {
@@ -3746,7 +3748,7 @@ footer .row {
 .btn-switch {
   width: 30px;
   display: flex;
-  margin-right: 30px;
+  margin: 0 15px;
   justify-content: center;
 }
 
@@ -4156,6 +4158,75 @@ footer .row {
 
 .shadow {
   box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-open-player {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .track_info_wrapper {
+        display: none;
+    }
+
+    .mini-player {
+        top: 2.3vw;
+    }
+
+    .playback_wrapper {
+        height: 280px;
+    }
+
+    .playback_btn_wrapper {
+        top: 172px;
+        left: 234px;
+    }
+
+    .playback_timeline {
+        width: 100%;
+        left: 40px;
+        top: 235px;
+    }
+
+    .player {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .playback_wrapper {
+        height: 160px;
+    }
+
+    .playback_thumb {
+        display: none;
+    }
+
+    .playback_info {
+        width: 100%;
+        left: 0;
+        margin: 42px 8px 8px 40px;
+    }
+
+    .playback_info .title {
+        font-size: 18px;
+    }
+
+    .playback_info .artist {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .playback_btn_wrapper {
+        left: 68%;
+        top: 85px;
+    }
+
+    .playback_timeline {
+        width: 100%;
+        left: 40px;
+        top: 110px;
+    }
 }
 
 
