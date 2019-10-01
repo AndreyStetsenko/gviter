@@ -20,6 +20,8 @@
 
     <!-- CSS
     ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
@@ -33,6 +35,10 @@
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- fonts
+    ================================================== -->
+    <link rel="stylesheet" href="fonts/avenirn/stylesheet.css">
 
 </head>
 
@@ -57,6 +63,98 @@
         </div>
       </div>
 
+      <!-- ===== PLAYER ===== -->
+
+
+      <div class="dim"></div>
+      <div class="player" id="player">
+         <div class="playback_wrapper">
+            <div class="playback_blur"></div>
+            <div class="playback_thumb" data-tilt></div>
+            <div class="playback_info">
+               <div class="title">Friday Comes</div>
+               <div class="artist">Gena VITER</div>
+            </div>
+            <div class="playback_btn_wrapper">
+               <i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>
+               <div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i class="btn-pause fa fa-pause" aria-hidden="true"></i></div>
+               <i class="btn-next fa fa-step-forward" aria-hidden="true"></i>
+            </div>
+            <div class="playback_timeline">
+               <div class="playback_timeline_start-time">00:31</div>
+               <div class="playback_timeline_slider">
+                  <div class="slider_base"></div>
+                  <div class="slider_progress"></div>
+                  <div class="slider_handle"></div>
+               </div>
+               <div class="playback_timeline_end-time">03:11</div>
+            </div>
+         </div>
+         <div class="list_wrapper">
+            <ul class="list">
+               <li class="list_item selected">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+
+      <!-- ===== END PLAYER ===== -->
+
         <nav class="header-nav">
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
@@ -65,7 +163,7 @@
                 <h3>Navigation</h3>
 
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Главная</a></li>
+                    <li class="current"><a class="smoothscroll"  href="index.html" title="home">Главная</a></li>
                     <li><a class="smoothscroll"  href="#media" title="media">#Media</a></li>
                     <li><a class="smoothscroll"  href="#about" title="about">Обо мне</a></li>
                     <li><a class="smoothscroll"  href="#news" title="news">#News</a></li>
@@ -102,23 +200,62 @@
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <!-- <h3 class="subhead">What We Do</h3> -->
-                <h1 class="display-2">Gena VITER Твоя Любовь</h1>
+                <h1 class="display-2">Новости</h1>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row services-list block-1-2 block-tab-full">
 
-            <div class="col-block service-item" data-aos="fade-up" style="width: 100%;">
-                <div class="service-text">
-                    <p>За плечами телеведущего, шоумена, а теперь еще и певца Геннадия Ветра накопился приличный, как для молодого исполнителя, багаж: один сольный альбом и шесть клипов на песни из него. Его музыкальное амплуа раскрывается под творческим псевдонимом Gena VITER.
-
-                    Один из топовых современных режиссеров Украины Тарас Голубков, известный своими видеохитами для Скрябина — «Дельфины», Монатика — «Сейчас», Артема Пивоварова — «Кислород» снял клип для Gena VITER. Видеоработа на сингл «Твоя Любовь» была официально презентована сегодня.
-                    </p>
-                    <iframe width="837" height="450" src="https://www.youtube.com/embed/qyojezLBWcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>
-                    «Нужно делать то, что считаешь нужным, поменьше прислушиваться к мнению посторонних людей, потому что довольно часто это как раз и является ступором для того, чтобы принять то или иное решение. Нужно не бояться быть веселым и по максимуму верить в свои силы. Это самое главное.» — делится Gena VITER.</p>
-                </div>
-            </div>
+          <div class="row clients-outer" data-aos="fade-up">
+            <ul class="music-card">
+              <li>
+                <a href="news-page.html"><img src="http://afisha.kontramarka.ua/wp-content/uploads/2019/07/500h500-310x190.jpg" alt="Gena VITER"/>
+                  <div class="music-card_cont music-card_cont-black">
+                    <h2>“Я ловлю от жизни кайф” (с)- Gena VITER feat. Полиграф Шарикоff</h2>
+                    <p>Роскошь, шикарные замки, дорогие машины, главные герои, с элегантностью агентов секретной службы, и конечно же великолепная девушка — Виктория Козлова — все это о новом музыкальном видео “Я ловлю от жизни кайф” , снятого в лучших голливудских традициях.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="news-page.html"><img src="http://afisha.kontramarka.ua/wp-content/uploads/2019/07/imgonline-com-ua-resize-weune6rkx4piisr-310x190.jpg" alt="Gena VITER" />
+                  <div class="music-card_cont music-card_cont-black">
+                    <h2>Счастье. Деньги. Два ствола: Gena VITER и Полиграф Шарикоff отрываются в новом клипе!</h2>
+                    <p>Роскошь, шикарные замки, дорогие машины, главные герои, с элегантностью агентов секретной службы, и конечно же великолепная девушка — Виктория Козлова — все это о новом музыкальном видео “Я ловлю от жизни кайф” , снятого в лучших голливудских традициях.</p>
+                  </div>
+                </a>
+              </li>
+              <li><a href="news-page.html"><img src="http://afisha.kontramarka.ua/wp-content/uploads/2019/05/pic-2-310x190.jpg" alt="Gena VITER" />
+                    <div class="music-card_cont music-card_cont-black">
+                      <h2>Gena VITER Твоя Любовь</h2>
+                      <p>Роскошь, шикарные замки, дорогие машины, главные герои, с элегантностью агентов секретной службы, и конечно же великолепная девушка — Виктория Козлова — все это о новом музыкальном видео “Я ловлю от жизни кайф” , снятого в лучших голливудских традициях.</p>
+                    </div>
+                  </a>
+              </li>
+              <li>
+                <a href="news-page.html"><img src="http://afisha.kontramarka.ua/wp-content/uploads/2019/07/500h500-310x190.jpg" alt="Gena VITER"/>
+                  <div class="music-card_cont music-card_cont-black">
+                    <h2>“Я ловлю от жизни кайф” (с)- Gena VITER feat. Полиграф Шарикоff</h2>
+                    <p>Роскошь, шикарные замки, дорогие машины, главные герои, с элегантностью агентов секретной службы, и конечно же великолепная девушка — Виктория Козлова — все это о новом музыкальном видео “Я ловлю от жизни кайф” , снятого в лучших голливудских традициях.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="news-page.html"><img src="http://afisha.kontramarka.ua/wp-content/uploads/2019/07/imgonline-com-ua-resize-weune6rkx4piisr-310x190.jpg" alt="Gena VITER" />
+                  <div class="music-card_cont music-card_cont-black">
+                    <h2>Счастье. Деньги. Два ствола: Gena VITER и Полиграф Шарикоff отрываются в новом клипе!</h2>
+                    <p>Роскошь, шикарные замки, дорогие машины, главные герои, с элегантностью агентов секретной службы, и конечно же великолепная девушка — Виктория Козлова — все это о новом музыкальном видео “Я ловлю от жизни кайф” , снятого в лучших голливудских традициях.</p>
+                  </div>
+                </a>
+              </li>
+              <li><a href="news-page.html"><img src="http://afisha.kontramarka.ua/wp-content/uploads/2019/05/pic-2-310x190.jpg" alt="Gena VITER" />
+                    <div class="music-card_cont music-card_cont-black">
+                      <h2>Gena VITER Твоя Любовь</h2>
+                      <p>Роскошь, шикарные замки, дорогие машины, главные герои, с элегантностью агентов секретной службы, и конечно же великолепная девушка — Виктория Козлова — все это о новом музыкальном видео “Я ловлю от жизни кайф” , снятого в лучших голливудских традициях.</p>
+                    </div>
+                  </a>
+              </li>
+            </ul>
+          </div> <!-- end clients-outer -->
 
         </div> <!-- end media-list -->
 

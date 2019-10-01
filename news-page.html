@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="ru"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="ru"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Gena VITER</title>
+    <meta name="description" content="Gena VITER">
+    <meta name="author" content="Andrew Stetsenko">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- fonts
+    ================================================== -->
+    <link rel="stylesheet" href="fonts/avenirn/stylesheet.css">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+      <div class="mini-player">
+        <div class="track_info_wrapper">
+          <div class="track_info">
+            <div class="thumb"></div>
+            <div class="info">
+              <div class="title">Friday Comes</div>
+              <div class="artist">Early</div>
+            </div>
+          </div>
+        </div>
+        <div class="mini-player_btn_wrapper"><i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>
+          <div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i class="btn-pause fa fa-pause" aria-hidden="true"></i></div><i class="btn-next fa fa-step-forward" aria-hidden="true"></i><i class="btn-open-player fa fa-list" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <!-- ===== PLAYER ===== -->
+
+
+      <div class="dim"></div>
+      <div class="player" id="player">
+         <div class="playback_wrapper">
+            <div class="playback_blur"></div>
+            <div class="playback_thumb" data-tilt></div>
+            <div class="playback_info">
+               <div class="title">Friday Comes</div>
+               <div class="artist">Gena VITER</div>
+            </div>
+            <div class="playback_btn_wrapper">
+               <i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>
+               <div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i class="btn-pause fa fa-pause" aria-hidden="true"></i></div>
+               <i class="btn-next fa fa-step-forward" aria-hidden="true"></i>
+            </div>
+            <div class="playback_timeline">
+               <div class="playback_timeline_start-time">00:31</div>
+               <div class="playback_timeline_slider">
+                  <div class="slider_base"></div>
+                  <div class="slider_progress"></div>
+                  <div class="slider_handle"></div>
+               </div>
+               <div class="playback_timeline_end-time">03:11</div>
+            </div>
+         </div>
+         <div class="list_wrapper">
+            <ul class="list">
+               <li class="list_item selected">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+               <li class="list_item">
+                  <div class="thumb"> </div>
+                  <div class="info">
+                     <div class="title">Friday Comes</div>
+                     <div class="artist">Gena VITER</div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+
+      <!-- ===== END PLAYER ===== -->
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Главная</a></li>
+                    <li><a class="smoothscroll"  href="#media" title="media">#Media</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">Обо мне</a></li>
+                    <li><a class="smoothscroll"  href="#news" title="news">#News</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Контакты</a></li>
+                </ul>
+
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+    <!-- Media
+    ================================================== -->
+    <section id='about' class="s-media">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <!-- <h3 class="subhead">What We Do</h3> -->
+                <h1 class="display-2">Gena VITER Твоя Любовь</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up" style="width: 100%;">
+                <div class="service-text">
+                    <p>За плечами телеведущего, шоумена, а теперь еще и певца Геннадия Ветра накопился приличный, как для молодого исполнителя, багаж: один сольный альбом и шесть клипов на песни из него. Его музыкальное амплуа раскрывается под творческим псевдонимом Gena VITER.
+
+                    Один из топовых современных режиссеров Украины Тарас Голубков, известный своими видеохитами для Скрябина — «Дельфины», Монатика — «Сейчас», Артема Пивоварова — «Кислород» снял клип для Gena VITER. Видеоработа на сингл «Твоя Любовь» была официально презентована сегодня.
+                    </p>
+                    <iframe width="837" height="450" src="https://www.youtube.com/embed/qyojezLBWcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>
+                    «Нужно делать то, что считаешь нужным, поменьше прислушиваться к мнению посторонних людей, потому что довольно часто это как раз и является ступором для того, чтобы принять то или иное решение. Нужно не бояться быть веселым и по максимуму верить в свои силы. Это самое главное.» — делится Gena VITER.</p>
+                </div>
+            </div>
+
+        </div> <!-- end media-list -->
+
+    </section> <!-- end s-media -->
+
+    <!-- footer
+    ================================================== -->
+    <footer id="contact">
+
+      <div class="overlay"></div>
+      <!-- <div class="contact__line"></div> -->
+
+      <div class="row section-header" data-aos="fade-up">
+          <div class="col-full">
+              <!-- <h3 class="subhead">Contact Us</h3> -->
+              <h1 class="display-2 display-2--light">Сзязаться со мной</h1>
+          </div>
+      </div>
+
+      <div class="row contact-content" data-aos="fade-up">
+
+          <div class="contact-primary">
+
+              <h3 class="h6">Отправить нам сообщение</h3>
+
+              <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                  <fieldset>
+
+                  <div class="form-field">
+                      <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                  </div>
+                  <div class="form-field">
+                      <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                  </div>
+                  <div class="form-field">
+                      <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                  </div>
+                  <div class="form-field">
+                      <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                  </div>
+                  <div class="form-field">
+                      <button class="full-width btn--primary">Submit</button>
+                      <div class="submit-loader">
+                          <div class="text-loader">Sending...</div>
+                          <div class="s-loader">
+                              <div class="bounce1"></div>
+                              <div class="bounce2"></div>
+                              <div class="bounce3"></div>
+                          </div>
+                      </div>
+                  </div>
+
+                  </fieldset>
+              </form>
+
+              <!-- contact-warning -->
+              <div class="message-warning">
+                  Something went wrong. Please try again.
+              </div>
+
+              <!-- contact-success -->
+              <div class="message-success">
+                  Your message was sent, thank you!<br>
+              </div>
+
+          </div> <!-- end contact-primary -->
+
+          <div class="contact-secondary">
+              <div class="contact-info">
+
+                  <h3 class="h6 hide-on-fullwidth">Контактная Информация</h3>
+
+                  <div class="cinfo">
+                      <h5>Где меня найти</h5>
+                      <p>
+                          1600 Amphitheatre Parkway<br>
+                          Mountain View, CA<br>
+                          94043 US
+                      </p>
+                  </div>
+
+                  <div class="cinfo">
+                      <h5>Напишите нам</h5>
+                      <p>
+                          contact.viter@gmail.com<br>
+                          info.viter@gmail.com
+                      </p>
+                  </div>
+
+                  <div class="cinfo">
+                      <h5>Позвоните нам</h5>
+                      <p>
+                          Phone: +380 99 123 1234<br>
+                          Mobile: +380 99 123 1234<br>
+                          Fax: +380 44 123 1234
+                      </p>
+                  </div>
+
+                  <ul class="contact-social">
+                      <li>
+                          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      </li>
+                  </ul> <!-- end contact-social -->
+
+              </div> <!-- end contact-info -->
+          </div> <!-- end contact-secondary -->
+
+      </div> <!-- end contact-content -->
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Gena VITER 2019</span>
+                    <span>Site Template by <a href="#">Andrew Stetsenko</a></span>
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineMax.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
